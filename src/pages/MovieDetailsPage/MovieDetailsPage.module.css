@@ -1,0 +1,40 @@
+.container {
+    margin-top: 100px;
+    padding: 0 60px;
+}
+
+.goBack {
+    margin-bottom: 20px;
+    width: 105px;
+}
+
+.goBack:hover .backBtn{
+    background-color: black;
+    color: white;
+}
+
+.backBtn{
+    color: black;
+    transition: 300ms;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        background-color: rgba(128, 128, 128, 0.3);
+        transition: 300ms;
+}
+
+.info {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.infolink {
+    padding: 4px;
+    font-size: 18px;
+}
+
+.list{
+    list-style: none;
+    border-bottom: 2px rgba(0, 0, 0, 0.4) solid;
+}

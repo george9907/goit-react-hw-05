@@ -1,0 +1,25 @@
+.section{
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px rgba(0, 0, 0, 0.4) solid;}
+
+.img{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.descr{
+    list-style: none;
+    padding: 0;
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+.genres{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}

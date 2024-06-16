@@ -1,0 +1,25 @@
+.list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.img{
+    width: 200px;
+}
+
+.name{
+    margin: 0;
+}
+
+.descr{
+    margin: 0;
+    max-width: 200px;
+}
